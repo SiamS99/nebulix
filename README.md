@@ -1,5 +1,4 @@
-
-![Build Status](https://github.com/SiamS99/nebulix/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/SiamS99/nebulix/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SiamS99/nebulix/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/SiamS99/nebulix/branch/main/graph/badge.svg?token=5BL48C9HEZ)](https://codecov.io/gh/SiamS99/nebulix)
 # Nebulix
 
