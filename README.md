@@ -1,6 +1,6 @@
 
-# ![Build Status](https://github.com/SiamS99/nebulix/actions/workflows/ci.yml/badge.svg)
-![Codecov](https://codecov.io/gh/SiamS99/nebulix/branch/main/graph/badge.svg)
+![Build Status](https://github.com/SiamS99/nebulix/actions/workflows/ci.yml/badge.svg)
+[![codecov](https://codecov.io/gh/SiamS99/nebulix/branch/main/graph/badge.svg?token=5BL48C9HEZ)](https://codecov.io/gh/SiamS99/nebulix)
 # Nebulix
 
 Nebulix is a next-generation, fully customizable DevOps platform designed to streamline software development, deployment, and operations. Built for flexibility, scalability, and team collaboration, Nebulix empowers organizations to automate workflows, manage projects, and accelerate delivery.
