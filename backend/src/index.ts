@@ -17,6 +17,11 @@ app.use(morgan('dev'));
 // Routes
 app.use('/api', apiRoutes);
 
+// Test-only error route (for 500 error testing)
+  app.get('/error', (req, res, next) => {
+    next(new Error('Test error'));
+  });
+
 // 404 handler
 app.use((req, res, next) => {
   res.status(404).json({ error: 'Not Found' });
@@ -28,7 +33,12 @@ app.use((err: Error, req: express.Request, res: express.Response, next: express.
   res.status(500).json({ error: 'Something went wrong!' });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+// Only start server if not in test mode
+/* istanbul ignore next */
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}
+
+export default app;
