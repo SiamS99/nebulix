@@ -1,3 +1,5 @@
+
+![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/SiamS99/coverage-badge-url/raw/coverage.json)
 # Nebulix
 
 Nebulix is a next-generation, fully customizable DevOps platform designed to streamline software development, deployment, and operations. Built for flexibility, scalability, and team collaboration, Nebulix empowers organizations to automate workflows, manage projects, and accelerate delivery.
